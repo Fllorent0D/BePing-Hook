@@ -1,5 +1,5 @@
 # BePing Hook
-Matches notification producer for BePing ([App Store](https://apps.apple.com/be/app/beping/id1358319169?l=fr), [Play Store](https://play.google.com/store/apps/details?id=be.floca.beping&hl=fr)).
+Match results notifications producer for BePing ([App Store](https://apps.apple.com/be/app/beping/id1358319169?l=fr), [Play Store](https://play.google.com/store/apps/details?id=be.floca.beping&hl=fr)).
 
 ![Screeshot of BePing notifications](screenshot.jpg)
 
