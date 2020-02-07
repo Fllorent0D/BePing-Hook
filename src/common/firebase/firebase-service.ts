@@ -17,7 +17,7 @@ export class FirebaseService {
             credential: admin.credential.cert(this.configurationService.config.firebase),
             databaseURL: 'https://beping-196714.firebaseio.com'
         });
-        this.loggingService.info('Initialize Firebase');
+        // this.loggingService.info('Initialize Firebase');
     }
 
     async sendNotifications(message: MessagingPayload,
