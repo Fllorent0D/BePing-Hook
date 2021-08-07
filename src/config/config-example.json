@@ -1,0 +1,40 @@
+{
+  "environment": "dev",
+  "isProduction": false,
+  "logging": {
+    "shortDescription": true,
+    "transports": [
+      {
+        "enabled": true,
+        "transport": "Console",
+        "minLevel": "trace"
+      },
+      {
+        "enabled": false,
+        "transport": "File",
+        "minLevel": "info",
+        "filePath": "./logs/beping-hook-%DATE%.log",
+        "datePattern": "YYYY-MM-DD"
+      }
+    ]
+  },
+  "tabt": {
+    "url": "http://localhost:5000"
+  },
+  "firebase": {
+    "type": "service_account",
+    "project_id": "ddd",
+    "private_key_id": "ddd",
+    "private_key": "hfgddhfgdhfg",
+    "client_email": "dfghdfgh",
+    "client_id": "dfgh",
+    "auth_uri": "dfghdfgh",
+    "token_uri": "dfghdfgh",
+    "auth_provider_x509_cert_url": "dfgdfgh",
+    "client_x509_cert_url": "dfgdfghdfgh"
+  },
+  "interval_refresh": 5000,
+  "express": {
+    "port": 5500
+  }
+}
